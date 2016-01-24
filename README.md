@@ -15,6 +15,7 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 
 
 **To run do the following:**
+
 1. Download the repository. (It contains code and raw data).
 2. 
 3. Create a new folder 'raw_data' and unzip the data files in the folder.
