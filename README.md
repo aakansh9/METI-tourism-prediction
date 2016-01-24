@@ -18,7 +18,7 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 
 1. Download the repository. (It contains code and raw data).
 2. Install the required R packages as mentioned in RunMe.R
-3. Inside RunME.R modify the main_path variable to the path of this repository.
+3. Inside RunMe.R modify the main_path variable to the path of this repository.
 4. Run RunMe.R
 6. A submission_ensemble.csv is generated containing final predictions for Toyama City (C6) and Kanazawa (C7)
 
