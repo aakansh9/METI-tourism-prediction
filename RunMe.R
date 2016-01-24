@@ -5,21 +5,23 @@ require(reshape) # merge_recurse
 require(plyr) # join
 require(caret) # nzv
 require(forecast) # ma, stl
-require(xgboost)
-require(Metrics)
+require(xgboost) # for xgboost
+require(Metrics) # for MAE metric
 
 
 require(Ckmeans.1d.dp) # plot xgboost feature importance
 require(ggplot2); theme_set(theme_gray(base_size=12, base_family="HiraKakuProN-W3"))
 
 # ... set main_path as path to this directory ...
-main_path = '~/Projects/METI_tourism/'
+main_path = '~/Projects/METI-tourism-prediction/'
 setwd(main_path)
 
 
 # ... run the code ...
+
 dir.create('cleaned_data', recursive = T)
 dir.create('features', recursive = T)
+
 source('code/paths.R') # load path names
 source('code/clean.R') # data cleaning
 source('code/load.R') # load cleaned data
