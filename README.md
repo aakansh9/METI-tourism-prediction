@@ -15,6 +15,7 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 
 
 **Repository Structure**
+
 1. /code/ contains R code files
 2. /raw_data/ contains contest data  + open data
 3. kanazawa_google_trends_features.xlsx contains explanation of kanazawa google trends keywords, categories, filenames etc. This is a reference to column names for google trends data of Kanazawa inside /raw_data/open_data/kanazawa/
