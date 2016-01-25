@@ -18,7 +18,7 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 
 1. /code/ contains R code files
 2. /raw_data/ contains contest data  + open data
-3. kanazawa_google_trends_features.xlsx contains explanation of kanazawa google trends keywords, categories, filenames etc. This is a reference to column names for google trends data of Kanazawa inside /raw_data/open_data/kanazawa/
+3. kanazawa_gtrends.xlsx contains explanation of kanazawa google trends keywords, categories, filenames etc. This is a reference to column names for google trends data of Kanazawa inside /raw_data/open_data/kanazawa/
 4. Run RunMe.R to reproduce the model.
 
 **HOW TO RUN CODE:**
@@ -29,4 +29,6 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 4. Run RunMe.R
 6. A submission_ensemble.csv is generated containing final predictions for Toyama City (C6) and Kanazawa (C7)
 
-*Details about implementation in English are mentioned in vignette.pdf*
+*Details about implementation in English are mentioned in report_02_ENGLISH.pdf*
+*Details about implementation in Japanese are mentioned in report_02_日本語.pdf*
+
