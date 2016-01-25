@@ -14,7 +14,13 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 3. R packages used: data.table 1.9.6, fields 8.3-6, caret 6.0-64, reshape 0.8.5, plyr 1.8.3, forecast 6.2, xgboost 0.4-2, Metrics 0.1.1, ggplot2 2.0.0.
 
 
-**To run do the following:**
+**Repository Structure**
+1. /code/ contains R code files
+2. /raw_data/ contains contest data  + open data
+3. kanazawa_google_trends_features.xlsx contains explanation of kanazawa google trends keywords, categories, filenames etc. This is a reference to column names for google trends data of Kanazawa inside /raw_data/open_data/kanazawa/
+4. Run RunMe.R to reproduce the model.
+
+**HOW TO RUN CODE:**
 
 1. Download the repository. (It contains code and raw data).
 2. Install the required R packages as mentioned in RunMe.R
@@ -22,4 +28,4 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 4. Run RunMe.R
 6. A submission_ensemble.csv is generated containing final predictions for Toyama City (C6) and Kanazawa (C7)
 
-***Details about implementation in English are mentioned in vignette.pdf***
+*Details about implementation in English are mentioned in vignette.pdf*
