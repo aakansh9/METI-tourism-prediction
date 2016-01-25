@@ -30,5 +30,6 @@ for 14 cities of Japan. Data was provided by METI ministry, Japan.
 6. A submission_ensemble.csv is generated containing final predictions for Toyama City (C6) and Kanazawa (C7)
 
 *Details about implementation in English are mentioned in report_02_ENGLISH.pdf*
+
 *Details about implementation in Japanese are mentioned in report_02_日本語.pdf*
 
