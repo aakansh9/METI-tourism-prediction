@@ -1,11 +1,17 @@
 tourism_prediction
 ====================
 *ML competition at [Signate](https://signate.jp/competitions/13)*
-The 1st Big Data Analysis Contest (Tourism Prediction in Japan)
+
+
+
+1st Big Data Analysis Contest (Tourism Prediction in Japan)
+
+
 ---
 Title: "Tourism Prediction Contest sponsored by METI"
 Author: "Aakansh Gupta"
 First Created: "January 25, 2015"
+
 ---
 
 This repo contains code for [The 1st Big Data Analysis Contest] (https://datasciencelab.jp/compe/13) which was themed on "Tourism Prediction"
